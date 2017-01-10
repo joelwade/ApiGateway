@@ -35,5 +35,10 @@ namespace MicroServiceRepos
 
             return queryResult;
         }
+
+        public IEnumerable<Product> GetByIds(List<int> ids)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

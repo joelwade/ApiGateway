@@ -15,12 +15,14 @@ namespace WebApplication1.Controllers
         private readonly IGiftBoxRepo giftRepo;
         private readonly IOrderRepo orderRepo;
         private readonly ICartRepo cartRepo;
+        private readonly IProductRepo prodRepo;
 
-        public UserClientController(IGiftBoxRepo giftRepo, IOrderRepo orderRepo, ICartRepo cartRepo)
+        public UserClientController(IGiftBoxRepo giftRepo, IOrderRepo orderRepo, ICartRepo cartRepo, IProductRepo prodRepo)
         {
             this.giftRepo = giftRepo;
             this.orderRepo = orderRepo;
             this.cartRepo = cartRepo;
+            this.prodRepo = prodRepo;
         }
 
         /// <summary>
@@ -34,9 +36,37 @@ namespace WebApplication1.Controllers
             return giftRepo.Get();
         }
 
+        [HttpGet]
+        [Route("api/getGiftBoxes")]
         public IEnumerable<GiftBox> GetGiftBoxes(List<int> ids)
         {
             return giftRepo.Get(ids);
+        }
+
+        [HttpGet]
+        [Route("api/getProducts")]
+        public IEnumerable<Product> GetProds()
+        {
+            List<int> ints = new List<int>();
+            ints.Add(1);
+            ints.Add(3);
+            ints.Add(4);
+            var p = prodRepo.GetByIds(ints);
+            return prodRepo.GetByIds(ints);
+        }
+
+        [HttpGet]
+        [Route("api/getProductsByIds")]
+        public IEnumerable<Product> GetProdsByIds([FromBody]List<int> ids)
+        {
+            return prodRepo.GetByIds(ids);
+        }
+
+        [HttpGet]
+        [Route("api/getProduct")]
+        public Product GetProd(int id)
+        {
+            return prodRepo.GetById(id);
         }
 
         [HttpGet]

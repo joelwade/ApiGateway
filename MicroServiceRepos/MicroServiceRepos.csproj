@@ -55,6 +55,7 @@
     <Compile Include="MockCartRepo.cs" />
     <Compile Include="MockGiftRepo.cs" />
     <Compile Include="MockOrderRepo.cs" />
+    <Compile Include="MockProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

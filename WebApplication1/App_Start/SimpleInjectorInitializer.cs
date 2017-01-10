@@ -39,6 +39,10 @@ namespace WebApplication1
             //Cart
             container.Register<ICartRepo, MockCartRepo>(Lifestyle.Singleton);
             //container.Register<ICartRepo, ConcCartRepo>(Lifestyle.Scoped);
+
+            //Products
+            container.Register<IProductRepo, MockProductRepo>(Lifestyle.Singleton);
+            //container.Register<IProductRepo, ConcProductRepo>(Lifestyle.Singleton);
         }
     }
 }

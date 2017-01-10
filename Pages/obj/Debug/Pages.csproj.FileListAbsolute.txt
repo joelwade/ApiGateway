@@ -19,3 +19,10 @@ C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Pages\bin\Debug\Dtos.pdb
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Pages\obj\Debug\Pages.csprojResolveAssemblyReference.cache
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Pages\obj\Debug\Pages.dll
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Pages\obj\Debug\Pages.pdb
+C:\Users\p4100378\Desktop\ApiGateway\Pages\bin\Debug\Pages.dll
+C:\Users\p4100378\Desktop\ApiGateway\Pages\bin\Debug\Pages.pdb
+C:\Users\p4100378\Desktop\ApiGateway\Pages\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\ApiGateway\Pages\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\ApiGateway\Pages\obj\Debug\Pages.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\ApiGateway\Pages\obj\Debug\Pages.dll
+C:\Users\p4100378\Desktop\ApiGateway\Pages\obj\Debug\Pages.pdb

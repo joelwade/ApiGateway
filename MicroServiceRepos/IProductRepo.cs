@@ -9,6 +9,7 @@ namespace MicroServiceRepos
 {
     public interface IProductRepo
     {
+        IEnumerable<Product> GetByIds(List<int> ids);
         IEnumerable<Product> GetAll();
         Product GetById(int id);
     }

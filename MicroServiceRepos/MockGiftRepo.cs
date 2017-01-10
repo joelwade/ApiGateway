@@ -11,12 +11,15 @@ namespace MicroServiceRepos
     {
         IEnumerable<GiftBox> boxes;
 
+        IProductRepo productRepo;
+
         Random rnd;
 
-        public MockGiftRepo()
+        public MockGiftRepo(IProductRepo prodRepo)
         {
             rnd = new Random();
             boxes = CreateBoxes();
+            this.productRepo = prodRepo;
         }
 
         public IEnumerable<GiftBox> Get()
@@ -26,6 +29,15 @@ namespace MicroServiceRepos
 
         public IEnumerable<GiftBox> Get(List<int> ids)
         {
+            IEnumerable <GiftBox> bs = boxes.Where(b => ids.Contains(b.id));
+
+            List<int?> prodIds = new List<int?>();
+            foreach (GiftBox i in bs)
+            {
+                prodIds.AddRange(i.products.Select(c => c.ThAmCo_Id));
+            }
+
+            List<int?> debug = prodIds;
             return boxes.Where(b => ids.Contains(b.id));
         }
 
@@ -47,11 +59,26 @@ namespace MicroServiceRepos
         private IEnumerable<GiftBox> CreateBoxes()
         {
             List<GiftBox> list = new List<GiftBox>();
+            //List<Product> prods1 = new List<Product>();
+            //prods1.Add(productRepo.GetById(1));
+            //prods1.Add(productRepo.GetById(3));
+            //List<Product> prods2 = new List<Product>();
+            //prods2.Add(productRepo.GetById(1));
+            //prods2.Add(productRepo.GetById(4));
+            //prods2.Add(productRepo.GetById(2));
+            //List<Product> prods3 = new List<Product>();
+            //prods3.Add(productRepo.GetById(1));
+            //prods3.Add(productRepo.GetById(3));
+            //prods3.Add(productRepo.GetById(3));
+            //List<Product> prods4 = new List<Product>();
+            //prods4.Add(productRepo.GetById(1));
+            //prods4.Add(productRepo.GetById(3));
             list.Add(new GiftBox
             {
                 active = true,
                 id = 1,
-                products = GenerateRandProducts(4),
+                name = "Best damn giftbox you ever seen",
+                products = GenerateRandProducts(3),
                 wrapping = GenerateRandWrapping(),
                 price = 4
             });
@@ -59,6 +86,7 @@ namespace MicroServiceRepos
             {
                 active = true,
                 id = 2,
+                name = "S'aight",
                 products = GenerateRandProducts(3),
                 wrapping = GenerateRandWrapping(),
                 price = 3
@@ -67,6 +95,7 @@ namespace MicroServiceRepos
             {
                 active = true,
                 id = 3,
+                name = "Giftbox 1",
                 products = GenerateRandProducts(2),
                 wrapping = GenerateRandWrapping(),
                 price = 5
@@ -75,6 +104,7 @@ namespace MicroServiceRepos
             {
                 active = true,
                 id = 4,
+                name = "Chicken box",
                 products = GenerateRandProducts(2),
                 wrapping = GenerateRandWrapping(),
                 price = 6
@@ -83,6 +113,7 @@ namespace MicroServiceRepos
             {
                 active = true,
                 id = 5,
+                name = "Whats in the boxxx",
                 products = GenerateRandProducts(2),
                 wrapping = GenerateRandWrapping(),
                 price = 7
@@ -91,6 +122,7 @@ namespace MicroServiceRepos
             {
                 active = true,
                 id = 6,
+                name = "Wanna see a magic trick?",
                 products = GenerateRandProducts(2),
                 wrapping = GenerateRandWrapping(),
                 price = 8
@@ -126,17 +158,14 @@ namespace MicroServiceRepos
         {
             return new Product
             {
-                id = 1,
-                ean = GenerateRandString(8),
-                categoryId = rnd.Next(1, 50),
-                categoryName = GenerateRandString(5),
-                brandId = rnd.Next(1, 15),
-                brandName = GenerateRandString(4),
-                name = GenerateRandString(3),
-                description = GenerateRandString(14),
-                price = rnd.NextDouble(),
-                inStock = true,
-                expectedRestock = DateTime.UtcNow.AddDays(rnd.Next(90))
+                ThAmCo_Id = 1,
+                Ean = GenerateRandString(8),
+                Name = GenerateRandString(3),
+                Description = GenerateRandString(14),
+                Price = rnd.NextDouble(),
+                PriceForTen = rnd.NextDouble() *4,
+                InStock = true,
+                ExpectedRestock = DateTime.UtcNow.AddDays(rnd.Next(90))
             };
         }
 

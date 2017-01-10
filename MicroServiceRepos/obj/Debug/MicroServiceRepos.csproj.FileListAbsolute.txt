@@ -28,3 +28,14 @@ C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\R
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.csprojResolveAssemblyReference.cache
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.dll
 C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\obj\Debug\MicroServiceRepos.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\obj\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\obj\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\Pages.dll
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\RestSharp.dll
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\Pages.pdb
+C:\Users\p4100378\Desktop\ApiGateway\MicroServiceRepos\bin\Debug\RestSharp.xml
