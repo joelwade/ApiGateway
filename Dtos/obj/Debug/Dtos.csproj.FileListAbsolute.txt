@@ -1,0 +1,15 @@
+C:\Users\p4100378\Desktop\WebApplication1\Dtos\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1\Dtos\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.pdb
+C:\Users\hj\Desktop\WebApplication1\Dtos\bin\Debug\Dtos.dll
+C:\Users\hj\Desktop\WebApplication1\Dtos\bin\Debug\Dtos.pdb
+C:\Users\hj\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
+C:\Users\hj\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.dll
+C:\Users\hj\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\WebApplication1\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Dtos\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Dtos\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Dtos\obj\Debug\Dtos.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Dtos\obj\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\Dtos\obj\Debug\Dtos.pdb

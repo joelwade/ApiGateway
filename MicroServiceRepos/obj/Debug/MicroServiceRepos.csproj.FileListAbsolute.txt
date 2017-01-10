@@ -1,0 +1,30 @@
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.csprojResolveAssemblyReference.cache
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\MicroServiceRepos.dll
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\MicroServiceRepos.pdb
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Dtos.dll
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Pages.dll
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Dtos.pdb
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Pages.pdb
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.dll
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.pdb
+C:\Users\hj\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Pages.dll
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\bin\Debug\Pages.pdb
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\WebApplication1\MicroServiceRepos\obj\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\MicroServiceRepos.pdb
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\Dtos.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\Pages.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\RestSharp.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\Dtos.pdb
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\Pages.pdb
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\bin\Debug\RestSharp.xml
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.csprojResolveAssemblyReference.cache
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.dll
+C:\Users\p4100378\Desktop\WebApplication1 -5th jan\MicroServiceRepos\obj\Debug\MicroServiceRepos.pdb
